@@ -36,7 +36,7 @@ buttonToSentenceCase.addEventListener("click", function() {
 
 buttonToDownload.addEventListener("click", function() {
     let textInput = document.querySelector("textarea");
-    download("text.txt", textInput.value);
+    download("converted_text.txt", textInput.value);
 })
 
 function download(filename, text) {

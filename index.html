@@ -12,17 +12,21 @@ If the sentence-case button is pressed, convert the text in textarea to the sent
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <title>Case Converter</title>
 </head>
 <body>
     <div class="title">Case Converter</div>
-    <textarea></textarea>
+    <textarea placeholder="Write something here and press a button to convert :)"></textarea>
     <div class="buttons">
-        <button id="upper-case">Upper Case</button>
-        <button id="lower-case">Lower Case</button>
-        <button id="proper-case">Proper Case</button>
-        <button id="sentence-case">Sentence Case</button>
-        <button id="save-text-file">Save Text File</button>
+        <button class="btn" id="upper-case">Upper Case</button>
+        <button class="btn" id="lower-case">Lower Case</button>
+        <button class="btn" id="proper-case">Proper Case</button>
+        <button class="btn" id="sentence-case">Sentence Case</button>
+        <button class="btn" id="save-text-file">Save Text File</button>
     </div>
     <script src="case_converter.js"></script>
 </body>
